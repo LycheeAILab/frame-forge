@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frame Forge"
+  short_description: "指定风格或浏览示例，将照片与灵感转化为海报、明信片与艺术拼贴"
+  default_prompt: "用 $frame-forge 展示四种风格的示例图，让我选一种来创作。"
