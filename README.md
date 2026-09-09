@@ -1,41 +1,86 @@
+<div align="center">
+
 # Frame Forge
 
-**将照片与灵感，转化为有风格的作品。**
+### 把照片与灵感，变成值得收藏的一页。
 
-一个面向 Codex 的图片创作 Skill。直接指定风格，或先看示例图再选择；Frame Forge 加载对应的视觉规则和提示词，让当前会话的内置生图工具完成创作。
+六种视觉风格 · 看图选择 · 内置生图
 
-## 六种风格
+[风格画廊](#风格画廊) · [开始使用](#开始使用) · [创作方式](#创作方式)
 
-同一只金毛，同一个车窗，六种表达。以下预览均由 Frame Forge 使用内置生图工具制作。
+</div>
 
-| 1 · 极简纸刊 | 2 · 月历明信片 |
-| :---: | :---: |
-| <img src="assets/previews/minimal.png" width="300" alt="极简纸刊示例"> | <img src="assets/previews/monthly.png" width="300" alt="月历明信片示例"> |
-| 大留白、纸张肌理、小主体与单一亮色 | 完整照片、水彩、月份与书影音 |
+---
 
-| 3 · 照片抽象编辑 | 4 · 实景纸感拼贴 |
-| :---: | :---: |
-| <img src="assets/previews/abstract.png" width="300" alt="照片抽象编辑示例"> | <img src="assets/previews/gathered.png" width="400" alt="实景纸感拼贴示例"> |
-| 照片搭配源于场景关系的抽象面板 | 真实摄影、插画、结构性色彩与撕纸边界 |
+**一张照片，多种表达。** 从安静的纸刊海报，到有触感的胶带拼贴和微缩舞台。选一个风格，交给 Frame Forge，直接获得成品图片。
 
-| 5 · 纸胶带拼贴 | 6 · 手工微缩双联 |
-| :---: | :---: |
-| <img src="assets/previews/masking-tape.png" width="300" alt="纸胶带拼贴示例"> | <img src="assets/previews/miniature-diptych.png" width="300" alt="手工微缩双联示例"> |
-| 上方照片，下方约 10–18 块纸胶带重构主体 | 上下等高，下方以黏土、毛毡、纸板重建微缩舞台 |
+## 风格画廊
 
-纸胶带拼贴支持多张照片逐张制作，每张输出独立的 3:4 竖版作品，不会合并照片。
+同一只金毛，同一个车窗，六种表达。点击图片查看预览。
 
-手工微缩双联支持照片或文字场景，装置约占下半幅20%–30%，保留手工材质与大面积留白。打印规格以实际输出像素和所需印刷尺寸为准。
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <a href="assets/previews/minimal.jpg"><img src="assets/previews/minimal.jpg" height="230" alt="极简纸刊：大留白与小幅金毛摄影"></a><br>
+      <strong>01 · 极简纸刊</strong><br>
+      <sub>大留白 · 纸纹 · 单一亮色</sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="assets/previews/monthly.jpg"><img src="assets/previews/monthly.jpg" height="230" alt="月历明信片：金毛照片与九月水彩手记"></a><br>
+      <strong>02 · 月历明信片</strong><br>
+      <sub>原照片 · 水彩 · 月份手记</sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="assets/previews/abstract.jpg"><img src="assets/previews/abstract.jpg" height="230" alt="照片抽象编辑：照片与简洁的抽象图形"></a><br>
+      <strong>03 · 照片抽象编辑</strong><br>
+      <sub>摄影 · 抽象关系 · 干净排版</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="assets/previews/gathered.jpg"><img src="assets/previews/gathered.jpg" height="230" alt="实景纸感拼贴：金毛与撕纸蓝色道路"></a><br>
+      <strong>04 · 实景纸感拼贴</strong><br>
+      <sub>真实摄影 · 撕纸边缘 · 结构性色彩</sub>
+    </td>
+    <td align="center">
+      <a href="assets/previews/masking-tape.jpg"><img src="assets/previews/masking-tape.jpg" height="230" alt="纸胶带拼贴：金毛照片与胶带重构"></a><br>
+      <strong>05 · 纸胶带拼贴</strong><br>
+      <sub>纸胶带 · 柔和配色 · 手工触感</sub>
+    </td>
+    <td align="center">
+      <a href="assets/previews/miniature-diptych.jpg"><img src="assets/previews/miniature-diptych.jpg" height="230" alt="手工微缩双联：金毛照片与毛毡微缩舞台"></a><br>
+      <strong>06 · 手工微缩双联</strong><br>
+      <sub>黏土毛毡 · 微缩舞台 · 上下双联</sub>
+    </td>
+  </tr>
+</table>
 
-## 安装
+以上为 Frame Forge 使用内置生图工具制作的风格预览。画廊图片经过缩小压缩，适合浏览；实际作品单独生成。
 
-将本仓库链接交给 Codex，要求安装仓库根目录的 `frame-forge` skill：
+## 开始使用
+
+**① 安装** — 把这句话发给 Codex：
 
 ```text
 请安装 https://github.com/LycheeAILab/frame-forge 的根目录 Skill。
 ```
 
-或手动克隆到你的 Codex skills 目录：
+**② 选风格** — 上传照片，在新任务中说：
+
+```text
+用 $frame-forge 展示风格示例图，我选好后再生成。
+```
+
+**③ 得到作品** — 回复编号，或直接指定：
+
+```text
+用 $frame-forge 把这张照片做成第五种「纸胶带拼贴」。
+```
+
+<details>
+<summary>手动安装 · macOS / Linux / Windows</summary>
+
+macOS / Linux：
 
 ```bash
 git clone https://github.com/LycheeAILab/frame-forge.git ~/.codex/skills/frame-forge
@@ -47,38 +92,33 @@ Windows PowerShell：
 git clone https://github.com/LycheeAILab/frame-forge.git "$env:USERPROFILE\.codex\skills\frame-forge"
 ```
 
-如果设置了自定义 `CODEX_HOME`，请安装到其 `skills/frame-forge` 下。安装后在新任务中使用；实际生成需要该会话提供可调用的生图工具。
+设置了自定义 `CODEX_HOME` 时，安装到其 `skills/frame-forge` 目录。安装后在新任务中使用。
 
-## 使用
+</details>
 
-先选择风格：
+## 创作方式
 
-```text
-用 $frame-forge 展示六种风格的示例图，我选好后再生成。
-```
+| 你的想法 | 可以这样说 |
+| :--- | :--- |
+| 从一句话开始 | 做一张关于雨天旧书店的极简纸刊海报。 |
+| 留住这个月 | 把照片做成九月明信片，署名 Lychee，其余页脚留空。 |
+| 多张照片分别创作 | 每张照片单独做成纸胶带拼贴，不要合并。 |
+| 把场景变成小舞台 | 用第六种，把照片中的场景做成手工微缩双联。 |
 
-上传照片后指定风格：
+极简纸刊和手工微缩双联支持文字场景；其他风格使用源照片。纸胶带拼贴逐张输出独立的 3:4 作品。手工微缩双联采用上下等高结构，下半幅保留大面积留白。
 
-```text
-用 $frame-forge 把这张照片做成实景纸感拼贴，保留人物与远处山脉的关系。
-```
+<details>
+<summary>生成与输出说明</summary>
 
-用文字创作极简纸刊：
+- 使用当前会话的内置生图工具，无需在本 skill 中配置 API key。
+- 提示词在内部使用，用户收到图片与简短说明。
+- 选风格直接展示固定预览，不额外生成选择图。
+- 内置工具不可用时说明暂时无法生成，不用提示词代替图片。
+- 六种风格已完成单张示例生成与视觉检查，不承诺照片像素级一致。
+- 打印规格以实际生成文件的像素和所需印刷尺寸为准。
 
-```text
-用 $frame-forge 做一张关于雨天旧书店的极简纸刊海报。
-```
+</details>
 
-制作月历：
+---
 
-```text
-用 $frame-forge 把这张照片做成九月明信片，署名 Lychee，其他页脚留空。
-```
-
-## 生成方式与当前状态
-
-- **内置生图**：优先使用用户当前会话的可调用工具，不需要在本 skill 中配置 API key。不会根据客户端名称推断 image2 权限，也不会声称内置工具未披露的模型身份。
-- **内置风格提示词**：选定风格后自动在内部使用，用户直接获得成品图片，交付不包含提示词或参数配方。
-- **工具不可用**：提示当前暂时无法生成，保留风格选择，不用提示词替代图片。
-- **风格选择**：直接匹配名称或编号，未指定则展示上方六张随包固定示例（支持时以三行两列展示），客户回复编号后再生成。选择页不额外生图。
-- **验证状态**：六种风格均已完成单张示例生成与视觉检查；照片保留效果以实际结果为准，不承诺像素级一致。
+<p align="center"><sub>Frame Forge · LycheeAILab</sub></p>
