@@ -16,8 +16,6 @@
 | <img src="assets/previews/abstract.jpg" width="300" alt="照片抽象编辑示例"> | <img src="assets/previews/gathered.jpg" width="400" alt="实景纸感拼贴示例"> |
 | 照片搭配源于场景关系的抽象面板 | 真实摄影、插画、结构性色彩与撕纸边界 |
 
-以上为上游作者样例，来源见[来源与许可证](references/sources.md)，不是本项目生成效果测试。部分为历史样例：第三张含当前规则不再使用的色卡，第四张为横向构图；实际输出按当前规则与用户要求执行。
-
 ## 安装
 
 将本仓库链接交给 Codex，要求安装仓库根目录的 `frame-forge` skill：
@@ -72,15 +70,4 @@ git clone https://github.com/LycheeAILab/frame-forge.git "$env:USERPROFILE\.code
 - **内置风格提示词**：选定风格后自动在内部使用，用户直接获得成品图片，交付不包含提示词或参数配方。
 - **工具不可用**：提示当前暂时无法生成，保留风格选择，不用提示词替代图片。
 - **风格选择**：直接匹配名称或编号，未指定则展示上方这四张随包固定示例（支持时以两行两列展示），客户回复编号后再生成。选择页不额外生图。
-- **验证状态**：已做 skill 结构、资源和引用检查；尚未进行四种风格的端到端生图测试。
-
-## 来源与使用范围
-
-Frame Forge 将四套上游风格整合到统一选择与生成流程中，保留作者署名和许可证。
-
-- [GC Minimal Zine Poster](https://github.com/LiamGvchi/gc-minimal-zine-poster) — MIT。
-- [Photo to Monthly Zine Postcard](https://github.com/shenchangyi/photo-to-monthly-zine-postcard) — MIT。
-- [Photo Abstract Editorial](https://github.com/ZzzLc0405/photo-abstract-editorial) — 以其许可证及单独授权为准。
-- [Gathered Scenes Zine](https://github.com/Zeejay0/gathered-scenes-zine-skill) — 以其许可证及单独授权为准。
-
-后两种按维护者声明已有的作者商业授权集成；该授权不自动转授给仓库使用者。本仓库不对全部内容统一授予 MIT 许可。详见[来源、授权与修改](references/sources.md)。
+- **验证状态**：已完成结构、资源和引用检查，并试用实景纸感拼贴完成一次图片生成；其余风格尚待生图验证。
