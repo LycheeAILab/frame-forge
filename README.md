@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src=".github/assets/frame-forge-banner.svg" width="100%" alt="Frame Forge — 一刻灵感，七种表达" />
+<img src=".github/assets/frame-forge-banner.svg" width="100%" alt="Frame Forge — 一刻灵感，八种表达" />
 
 # Frame Forge
 
@@ -10,7 +10,7 @@
 让纸刊、拼贴与微缩舞台，成为你的下一张作品。
 
 [![Codex Skill](https://img.shields.io/badge/Codex-Skill-111827?style=for-the-badge)](#install)
-[![Seven Styles](https://img.shields.io/badge/Styles-07-78866B?style=for-the-badge)](#gallery)
+[![Eight Styles](https://img.shields.io/badge/Styles-08-78866B?style=for-the-badge)](#gallery)
 [![Image Generation](https://img.shields.io/badge/Image-Generation-C47E60?style=for-the-badge)](#features)
 
 [核心能力](#features) · [风格画廊](#gallery) · [使用方式](#usage) · [安装](#install)
@@ -28,7 +28,7 @@
 | 🎨 | 看图选风格 | 风格编号或名称 | 按所选风格生成的作品 |
 | 📷 | 照片再创作 | 一张源照片 | 保留主体特征的全新视觉表达 |
 | 💡 | 灵感成画 | 一句话描述场景 | 极简纸刊或手工微缩双联 |
-| 🧩 | 逐张制作 | 多张照片，选择纸胶带拼贴 | 每张照片对应一张独立作品 |
+| 🧩 | 逐张制作 | 多张照片，选择纸胶带拼贴或等距纸景双联 | 每张照片对应一张独立作品 |
 
 > [!TIP]
 > 不用整理提示词。上传照片，说「展示风格示例」，选好后直接生成成品图片。
@@ -37,7 +37,7 @@
 
 ## 🖼️ 风格画廊
 
-同一只金毛，同一个车窗，七种表达。点击图片查看预览。
+同一只金毛，同一个车窗，八种表达。点击图片查看预览。
 
 <table>
   <tr>
@@ -80,11 +80,16 @@
       <strong>07 · 马克笔简笔画</strong><br>
       <sub>原图构图 · 粗黑线 · 纯色平涂</sub>
     </td>
-    <td colspan="2" align="center">保留熟悉的姿态，换一种手绘表达。<br><sub>上传照片，选择第七种即可开始。</sub></td>
+    <td align="center">
+      <a href="assets/previews/isometric-diptych.jpg"><img src="assets/previews/isometric-diptych.jpg" height="230" alt="等距纸景双联：金毛摄影与纸上等距微缩景观"></a><br>
+      <strong>08 · 等距纸景双联</strong><br>
+      <sub>原图配色 · 等距纸景 · 编辑排版</sub>
+    </td>
+    <td align="center">一张照片，八种表达。<br><sub>选好编号，开始创作。</sub></td>
   </tr>
 </table>
 
-<sub>Frame Forge 实际生成示例 · 预览图已压缩，适合在线浏览 · 点击查看，按编号选择。</sub>
+<sub>Frame Forge 实际生成示例 · 预览图已压缩，适合在线浏览 · 点击查看，按编号选择。第八种预览分界略偏离中线，实际制作以严格等高为验收要求。</sub>
 
 <a id="usage"></a>
 
@@ -160,9 +165,10 @@ git clone https://github.com/LycheeAILab/frame-forge.git "$env:USERPROFILE\.code
 | 从一句话开始 | 做一张关于雨天旧书店的极简纸刊海报。 |
 | 留住这个月 | 把照片做成九月明信片，署名 Lychee，其余页脚留空。 |
 | 多张照片分别创作 | 每张照片单独做成纸胶带拼贴，不要合并。 |
+| 制作等距纸面景观 | 用第八种，每张照片分别制作一张等距纸景双联海报。 |
 | 把场景变成小舞台 | 用第六种，把照片中的场景做成手工微缩双联。 |
 
-极简纸刊和手工微缩双联支持文字场景；其他风格使用源照片。纸胶带拼贴逐张输出独立的 3:4 作品。手工微缩双联采用上下等高结构，下半幅保留大面积留白。
+极简纸刊和手工微缩双联支持文字场景；其他风格使用源照片。纸胶带拼贴与等距纸景双联逐张输出独立的 3:4 作品。手工微缩双联采用上下等高结构，下半幅保留大面积留白。
 
 <details>
 <summary>生成与输出说明</summary>
@@ -171,7 +177,7 @@ git clone https://github.com/LycheeAILab/frame-forge.git "$env:USERPROFILE\.code
 - 提示词在内部使用，用户收到图片与简短说明。
 - 选风格直接展示固定预览，不额外生成选择图。
 - 内置工具不可用时说明暂时无法生成，不用提示词代替图片。
-- 七种风格已完成单张示例生成与视觉检查，不承诺照片像素级一致。
+- 八种风格已完成单张示例生成与视觉检查，不承诺照片像素级一致。
 - 打印规格以实际生成文件的像素和所需印刷尺寸为准。
 
 </details>
