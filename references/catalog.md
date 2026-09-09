@@ -11,6 +11,7 @@
 | 3 | 照片抽象编辑 | photo-abstract-editorial | 原照片搭配关系派生的抽象面板与标题 | styles/abstract/rules.md | ../assets/previews/abstract.png |
 | 4 | 实景纸感拼贴 | scenes-gathered-zine-v1-3 | 真实摄影、插画、结构性色彩、撕纸边界 | styles/gathered/rules.md | ../assets/previews/gathered.png |
 | 5 | 纸胶带拼贴 | masking-tape / masking tape art / 和纸胶带拼贴 | 上方原照片、下方约 10–18 块胶带重构主体、暖白留白 | styles/masking-tape/rules.md | ../assets/previews/masking-tape.png |
+| 6 | 手工微缩双联 | miniature-diptych / handmade miniature / 微缩封面 / 手工微缩 | 上下等高、上方摄影、下方黏土毛毡纸板微缩舞台 | styles/miniature-diptych/rules.md | ../assets/previews/miniature-diptych.png |
 
 图库为 Frame Forge 在 2026-09-09 制作的预览，统一使用本项目生成的“金毛趴在车窗上看窗外”原图，展示不同风格的差异。客户选择时直接展示，不复制示例中的金毛、标题、署名或月份到客户作品，除非客户明确要求。
 
