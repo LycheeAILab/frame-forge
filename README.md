@@ -6,14 +6,16 @@
 
 ## 四种风格
 
+同一只金毛，同一个车窗，四种表达。以下预览均由 Frame Forge 使用内置生图工具制作。
+
 | 1 · 极简纸刊 | 2 · 月历明信片 |
 | :---: | :---: |
-| <img src="assets/previews/minimal.jpeg" width="300" alt="极简纸刊示例"> | <img src="assets/previews/monthly.png" width="300" alt="月历明信片示例"> |
+| <img src="assets/previews/minimal.png" width="300" alt="极简纸刊示例"> | <img src="assets/previews/monthly.png" width="300" alt="月历明信片示例"> |
 | 大留白、纸张肌理、小主体与单一亮色 | 完整照片、水彩、月份与书影音 |
 
 | 3 · 照片抽象编辑 | 4 · 实景纸感拼贴 |
 | :---: | :---: |
-| <img src="assets/previews/abstract.jpg" width="300" alt="照片抽象编辑示例"> | <img src="assets/previews/gathered.jpg" width="400" alt="实景纸感拼贴示例"> |
+| <img src="assets/previews/abstract.png" width="300" alt="照片抽象编辑示例"> | <img src="assets/previews/gathered.png" width="400" alt="实景纸感拼贴示例"> |
 | 照片搭配源于场景关系的抽象面板 | 真实摄影、插画、结构性色彩与撕纸边界 |
 
 ## 安装
@@ -70,4 +72,4 @@ git clone https://github.com/LycheeAILab/frame-forge.git "$env:USERPROFILE\.code
 - **内置风格提示词**：选定风格后自动在内部使用，用户直接获得成品图片，交付不包含提示词或参数配方。
 - **工具不可用**：提示当前暂时无法生成，保留风格选择，不用提示词替代图片。
 - **风格选择**：直接匹配名称或编号，未指定则展示上方这四张随包固定示例（支持时以两行两列展示），客户回复编号后再生成。选择页不额外生图。
-- **验证状态**：已完成结构、资源和引用检查，并试用实景纸感拼贴完成一次图片生成；其余风格尚待生图验证。
+- **验证状态**：四种风格均已完成示例生成与视觉检查；照片保留效果以实际结果为准，不承诺像素级一致。

@@ -32,4 +32,4 @@ Read the appropriate full prompt before producing the image:
 - Chinese: [references/photo-abstract-editorial-prompt.zh-CN.md](references/photo-abstract-editorial-prompt.zh-CN.md)
 - English: [references/photo-abstract-editorial-prompt.en.md](references/photo-abstract-editorial-prompt.en.md)
 
-Use [the bundled preview](../../../assets/previews/abstract.jpg) only for style selection. Do not reuse its subject matter, colors, swatch strip, or composition unless the user explicitly requests those details. Follow the current written style constraints for generation.
+Use [the bundled preview](../../../assets/previews/abstract.png) only for style selection. Do not reuse its subject matter, title, colors, or composition unless the user explicitly requests those details. Follow the current written style constraints for generation.

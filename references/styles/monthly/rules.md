@@ -25,7 +25,7 @@ Create one finished front-side postcard. Treat the supplied photo and the monthl
 
 ## Visual anchors
 
-- Use `assets/reference-beach-monthly.png` only as a private layout reference when a visual anchor helps. Do not include it in the user's output.
+- Use `assets/reference-monthly.png` only as a private layout reference when a visual anchor helps. Do not include it in the user's output.
 - Preserve the reference's hierarchy: photograph above; free-edge watercolor on the lower left; one unbordered, warm-paper right column; a compact footer at the bottom.
 
 ## Non-negotiable constraints

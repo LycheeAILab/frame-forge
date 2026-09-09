@@ -6,11 +6,11 @@
 
 | 编号 | 中文名 | 可匹配名称 | 特点 | 规则 | 预览 |
 |---|---|---|---|---|---|
-| 1 | 极简纸刊 | gc-minimal-zine-poster / gc-minimal-zine-poster-v0-3 | 大留白、纸纹、小主体、单一亮色 | styles/minimal/rules.md | ../assets/previews/minimal.jpeg |
+| 1 | 极简纸刊 | gc-minimal-zine-poster / gc-minimal-zine-poster-v0-3 | 大留白、纸纹、小主体、单一亮色 | styles/minimal/rules.md | ../assets/previews/minimal.png |
 | 2 | 月历明信片 | photo-to-monthly-zine-postcard | 完整照片、水彩、月份与书影音 | styles/monthly/rules.md | ../assets/previews/monthly.png |
-| 3 | 照片抽象编辑 | photo-abstract-editorial | 原照片搭配关系派生的抽象面板与标题 | styles/abstract/rules.md | ../assets/previews/abstract.jpg |
-| 4 | 实景纸感拼贴 | scenes-gathered-zine-v1-3 | 真实摄影、插画、结构性色彩、撕纸边界 | styles/gathered/rules.md | ../assets/previews/gathered.jpg |
+| 3 | 照片抽象编辑 | photo-abstract-editorial | 原照片搭配关系派生的抽象面板与标题 | styles/abstract/rules.md | ../assets/previews/abstract.png |
+| 4 | 实景纸感拼贴 | scenes-gathered-zine-v1-3 | 真实摄影、插画、结构性色彩、撕纸边界 | styles/gathered/rules.md | ../assets/previews/gathered.png |
 
-图库为上游作者样例，注明对应来源见 sources.md；不可声称是本 skill 实测结果，不复用其署名、题材或日期。不同源图的样例不构成同图效果对比。新增风格时添加独立规则、合法可分发预览、别名及来源即可。
+图库为 Frame Forge 在 2026-09-09 制作的预览，统一使用本项目生成的“金毛趴在车窗上看窗外”原图，展示四种风格的差异。客户选择时直接展示，不复制示例中的金毛、标题、署名或月份到客户作品，除非客户明确要求。
 
-当前预览含历史样例：3号图有新版规则禁止的色卡，4号为横向构图且插画较密。展示时说明是风格参考，实际按当前提示词与用户比例生成；不能承诺原样复制。保留维护者选定的这四张图，除非维护者明确要求更换。
+月历图用九月、原创短句和空音乐栏；客户作品按其月份与文案生成。实际构图随客户素材调整，不承诺原样复制。保留这四张固定图，除非维护者明确要求更换。
