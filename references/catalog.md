@@ -12,7 +12,10 @@
 | 4 | 实景纸感拼贴 | scenes-gathered-zine-v1-3 | 真实摄影、插画、结构性色彩、撕纸边界 | styles/gathered/rules.md | ../assets/previews/gathered.jpg |
 | 5 | 纸胶带拼贴 | masking-tape / masking tape art / 和纸胶带拼贴 | 上方原照片、下方约 10–18 块胶带重构主体、暖白留白 | styles/masking-tape/rules.md | ../assets/previews/masking-tape.jpg |
 | 6 | 手工微缩双联 | miniature-diptych / handmade miniature / 微缩封面 / 手工微缩 | 上下等高、上方摄影、下方黏土毛毡纸板微缩舞台 | styles/miniature-diptych/rules.md | ../assets/previews/miniature-diptych.jpg |
+| 7 | 马克笔简笔画 | marker-sketch / marker drawing / 马克笔人物简笔画 | 保留原构图与姿态、粗黑手绘线、大块纯色平涂 | styles/marker-sketch/rules.md | ../assets/previews/marker-sketch.jpg |
 
 图库为 Frame Forge 在 2026-09-09 制作的预览，统一使用本项目生成的“金毛趴在车窗上看窗外”原图，展示不同风格的差异。客户选择时直接展示，不复制示例中的金毛、标题、署名或月份到客户作品，除非客户明确要求。
 
 月历图用九月、原创短句和空音乐栏；客户作品按其月份与文案生成。实际构图随客户素材调整，不承诺原样复制。保留这些固定图，除非维护者明确要求更换。第5种须按每张输入照片分别生成独立3:4竖版作品。
+
+第7种使用源照片进行画法迁移，保持原图比例、构图与姿态，不套用双联或大留白版式。

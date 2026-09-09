@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src=".github/assets/frame-forge-banner.svg" width="100%" alt="Frame Forge — 一刻灵感，六种表达" />
+<img src=".github/assets/frame-forge-banner.svg" width="100%" alt="Frame Forge — 一刻灵感，七种表达" />
 
 # Frame Forge
 
@@ -10,7 +10,7 @@
 让纸刊、拼贴与微缩舞台，成为你的下一张作品。
 
 [![Codex Skill](https://img.shields.io/badge/Codex-Skill-111827?style=for-the-badge)](#install)
-[![Six Styles](https://img.shields.io/badge/Styles-06-78866B?style=for-the-badge)](#gallery)
+[![Seven Styles](https://img.shields.io/badge/Styles-07-78866B?style=for-the-badge)](#gallery)
 [![Image Generation](https://img.shields.io/badge/Image-Generation-C47E60?style=for-the-badge)](#features)
 
 [核心能力](#features) · [风格画廊](#gallery) · [使用方式](#usage) · [安装](#install)
@@ -37,7 +37,7 @@
 
 ## 🖼️ 风格画廊
 
-同一只金毛，同一个车窗，六种表达。点击图片查看预览。
+同一只金毛，同一个车窗，七种表达。点击图片查看预览。
 
 <table>
   <tr>
@@ -74,9 +74,17 @@
       <sub>黏土毛毡 · 微缩舞台 · 上下双联</sub>
     </td>
   </tr>
+  <tr>
+    <td align="center">
+      <a href="assets/previews/marker-sketch.jpg"><img src="assets/previews/marker-sketch.jpg" height="230" alt="马克笔简笔画：保留金毛车窗构图，粗黑线与纯色色块"></a><br>
+      <strong>07 · 马克笔简笔画</strong><br>
+      <sub>原图构图 · 粗黑线 · 纯色平涂</sub>
+    </td>
+    <td colspan="2" align="center">保留熟悉的姿态，换一种手绘表达。<br><sub>上传照片，选择第七种即可开始。</sub></td>
+  </tr>
 </table>
 
-<sub>Frame Forge 实际生成示例 · 六张预览合计约 460 KB · 点击查看，按编号选择。</sub>
+<sub>Frame Forge 实际生成示例 · 预览图已压缩，适合在线浏览 · 点击查看，按编号选择。</sub>
 
 <a id="usage"></a>
 
@@ -145,6 +153,8 @@ git clone https://github.com/LycheeAILab/frame-forge.git "$env:USERPROFILE\.code
 
 ## ✅ 创作建议
 
+第七种「马克笔简笔画」保留源图构图、动作与主体位置，用粗黑手绘线和大色块完成风格迁移。可直接说：「用 $frame-forge 把这张照片做成第七种马克笔简笔画。」
+
 | 你的想法 | 可以这样说 |
 | :--- | :--- |
 | 从一句话开始 | 做一张关于雨天旧书店的极简纸刊海报。 |
@@ -161,7 +171,7 @@ git clone https://github.com/LycheeAILab/frame-forge.git "$env:USERPROFILE\.code
 - 提示词在内部使用，用户收到图片与简短说明。
 - 选风格直接展示固定预览，不额外生成选择图。
 - 内置工具不可用时说明暂时无法生成，不用提示词代替图片。
-- 六种风格已完成单张示例生成与视觉检查，不承诺照片像素级一致。
+- 七种风格已完成单张示例生成与视觉检查，不承诺照片像素级一致。
 - 打印规格以实际生成文件的像素和所需印刷尺寸为准。
 
 </details>
