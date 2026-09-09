@@ -13,7 +13,7 @@
 [![Eight Styles](https://img.shields.io/badge/Styles-08-78866B?style=for-the-badge)](#gallery)
 [![Image Generation](https://img.shields.io/badge/Image-Generation-C47E60?style=for-the-badge)](#features)
 
-[核心能力](#features) · [风格画廊](#gallery) · [使用方式](#usage) · [安装](#install)
+[核心能力](#features) · [风格画廊](#gallery) · [使用方式](#usage) · [安装](#install) · [作者致谢](#credits)
 
 </div>
 
@@ -181,6 +181,25 @@ git clone https://github.com/LycheeAILab/frame-forge.git "$env:USERPROFILE\.code
 - 打印规格以实际生成文件的像素和所需印刷尺寸为准。
 
 </details>
+
+---
+
+<a id="credits"></a>
+
+## 🤝 作者致谢
+
+Frame Forge 的前四种风格基于以下作者的作品整合与适配。感谢他们分享的提示词、视觉规则和创作方法，这些成果构成了本项目的重要基础。
+
+| 风格 | 原作者 | 原项目 |
+| :--- | :--- | :--- |
+| 极简纸刊 | [LiamGvchi](https://github.com/LiamGvchi) | [GC Minimal Zine Poster](https://github.com/LiamGvchi/gc-minimal-zine-poster) |
+| 月历明信片 | [shenchangyi](https://github.com/shenchangyi) | [Photo to Monthly Zine Postcard](https://github.com/shenchangyi/photo-to-monthly-zine-postcard) |
+| 照片抽象编辑 | [ZzzLc0405](https://github.com/ZzzLc0405) | [Photo Abstract Editorial](https://github.com/ZzzLc0405/photo-abstract-editorial) |
+| 实景纸感拼贴 | [Zeejay0](https://github.com/Zeejay0) | [Gathered Scenes Zine](https://github.com/Zeejay0/gathered-scenes-zine-skill) |
+
+Frame Forge 在此基础上提供统一的风格选择、内置生图与图片交付流程，并整合维护者提供的另外四套风格提示词。画廊示例由本项目生成，原作者的创作成果与本项目的整合工作分别归属各自贡献者。
+
+原项目的许可证与署名记录保留在仓库中；具体来源、授权范围与修改说明见 [来源与授权](references/sources.md)。
 
 ---
 
