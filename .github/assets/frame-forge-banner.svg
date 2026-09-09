@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Frame Forge</title>
+  <desc id="desc">A warm paper banner with layered editorial frames in sage, blue and terracotta.</desc>
+  <rect width="1200" height="360" rx="28" fill="#F5F2EA"/>
+  <rect x="1" y="1" width="1198" height="358" rx="27" fill="none" stroke="#DDD8CB" stroke-width="2"/>
+  <path d="M72 70H1128M72 290H1128" stroke="#D9D3C5"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="74" y="47" fill="#77786B" font-size="13" letter-spacing="3">LYCHEEAILAB / CREATIVE TOOLS</text>
+    <text x="1126" y="47" text-anchor="end" fill="#77786B" font-size="13" letter-spacing="3">VOL. 01 — SIX STYLES</text>
+    <text x="72" y="166" fill="#303E37" font-size="72" font-weight="700" letter-spacing="-2">Frame Forge</text>
+    <text x="77" y="220" fill="#74796C" font-size="18" letter-spacing="4">ONE MOMENT. MANY EXPRESSIONS.</text>
+    <text x="76" y="324" fill="#77786B" font-size="12" letter-spacing="3">PHOTO / PAPER / PLAY</text>
+  </g>
+  <g transform="translate(800 92) rotate(-9 76 97)">
+    <rect x="3" y="5" width="152" height="192" fill="#DBD5C9"/>
+    <rect width="152" height="192" fill="#FEFCF6" stroke="#DCD6CA"/>
+    <rect x="14" y="14" width="124" height="113" fill="#CBD7D9"/>
+    <circle cx="104" cy="46" r="17" fill="#F1ECE0"/>
+    <path d="M14 111L55 68L90 98L113 81L138 109V127H14Z" fill="#6C8782"/>
+    <path d="M20 151H83M20 160H55" stroke="#ABB0A4" stroke-width="3"/>
+  </g>
+  <g transform="translate(944 88) rotate(8 76 97)">
+    <rect x="3" y="5" width="152" height="192" fill="#DBD5C9"/>
+    <rect width="152" height="192" fill="#FEFCF6" stroke="#DCD6CA"/>
+    <path d="M35 93L85 54L113 89L89 119L43 119Z" fill="#AAB498"/>
+    <path d="M48 112L106 105L111 128L40 136Z" fill="#6D8270"/>
+    <path d="M72 65L102 79L91 102L65 88Z" fill="#C47E60"/>
+    <path d="M57 -7L101 -5L98 14L59 11Z" fill="#D7C7A2" opacity=".8"/>
+    <path d="M55 158H97" stroke="#ABB0A4" stroke-width="3"/>
+  </g>
+</svg>

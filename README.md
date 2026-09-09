@@ -1,20 +1,41 @@
 <div align="center">
 
+<img src=".github/assets/frame-forge-banner.svg" width="100%" alt="Frame Forge — 一刻灵感，六种表达" />
+
 # Frame Forge
 
 ### 把照片与灵感，变成值得收藏的一页。
 
-六种视觉风格 · 看图选择 · 内置生图
+从一张照片或一句灵感开始，选择喜欢的视觉风格。<br />
+让纸刊、拼贴与微缩舞台，成为你的下一张作品。
 
-[风格画廊](#风格画廊) · [开始使用](#开始使用) · [创作方式](#创作方式)
+[![Codex Skill](https://img.shields.io/badge/Codex-Skill-111827?style=for-the-badge)](#install)
+[![Six Styles](https://img.shields.io/badge/Styles-06-78866B?style=for-the-badge)](#gallery)
+[![Image Generation](https://img.shields.io/badge/Image-Generation-C47E60?style=for-the-badge)](#features)
+
+[核心能力](#features) · [风格画廊](#gallery) · [使用方式](#usage) · [安装](#install)
 
 </div>
 
 ---
 
-**一张照片，多种表达。** 从安静的纸刊海报，到有触感的胶带拼贴和微缩舞台。选一个风格，交给 Frame Forge，直接获得成品图片。
+<a id="features"></a>
 
-## 风格画廊
+## ✨ 核心能力
+
+| | 能力 | 你提供 | Frame Forge 交付 |
+| :---: | :--- | :--- | :--- |
+| 🎨 | 看图选风格 | 风格编号或名称 | 按所选风格生成的作品 |
+| 📷 | 照片再创作 | 一张源照片 | 保留主体特征的全新视觉表达 |
+| 💡 | 灵感成画 | 一句话描述场景 | 极简纸刊或手工微缩双联 |
+| 🧩 | 逐张制作 | 多张照片，选择纸胶带拼贴 | 每张照片对应一张独立作品 |
+
+> [!TIP]
+> 不用整理提示词。上传照片，说「展示风格示例」，选好后直接生成成品图片。
+
+<a id="gallery"></a>
+
+## 🖼️ 风格画廊
 
 同一只金毛，同一个车窗，六种表达。点击图片查看预览。
 
@@ -55,27 +76,51 @@
   </tr>
 </table>
 
-以上为 Frame Forge 使用内置生图工具制作的风格预览。画廊图片经过缩小压缩，适合浏览；实际作品单独生成。
+<sub>Frame Forge 实际生成示例 · 六张预览合计约 460 KB · 点击查看，按编号选择。</sub>
 
-## 开始使用
+<a id="usage"></a>
 
-**① 安装** — 把这句话发给 Codex：
+## 🧭 一句话开始创作
 
-```text
-请安装 https://github.com/LycheeAILab/frame-forge 的根目录 Skill。
-```
+安装后，上传照片，用自然语言告诉 Frame Forge 你想要什么。
 
-**② 选风格** — 上传照片，在新任务中说：
+**先看风格，再决定**
 
 ```text
 用 $frame-forge 展示风格示例图，我选好后再生成。
 ```
 
-**③ 得到作品** — 回复编号，或直接指定：
+**把照片做成手工作品**
 
 ```text
 用 $frame-forge 把这张照片做成第五种「纸胶带拼贴」。
 ```
+
+**从一句灵感开始**
+
+```text
+用 $frame-forge 做一张雨天旧书店的极简纸刊海报。
+```
+
+**让场景变成微缩舞台**
+
+```text
+用 $frame-forge 的第六种风格，把这张照片做成手工微缩双联。
+```
+
+<a id="install"></a>
+
+## 📦 安装
+
+### Codex
+
+把下面这句话发给 Codex：
+
+```text
+请安装 https://github.com/LycheeAILab/frame-forge 的根目录 Skill。
+```
+
+安装后，在新任务中输入 `$frame-forge` 开始使用。生成作品需要当前会话支持内置生图工具。
 
 <details>
 <summary>手动安装 · macOS / Linux / Windows</summary>
@@ -96,7 +141,9 @@ git clone https://github.com/LycheeAILab/frame-forge.git "$env:USERPROFILE\.code
 
 </details>
 
-## 创作方式
+<a id="tips"></a>
+
+## ✅ 创作建议
 
 | 你的想法 | 可以这样说 |
 | :--- | :--- |
@@ -121,4 +168,7 @@ git clone https://github.com/LycheeAILab/frame-forge.git "$env:USERPROFILE\.code
 
 ---
 
-<p align="center"><sub>Frame Forge · LycheeAILab</sub></p>
+<div align="center">
+  <strong>Frame Forge</strong><br />
+  <sub>Built with care by <a href="https://lab.lycheeai.com.cn/">LycheeAILab</a></sub>
+</div>
