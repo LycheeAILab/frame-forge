@@ -130,10 +130,10 @@
 把下面这句话发给 Codex：
 
 ```text
-请安装 https://github.com/LycheeAILab/frame-forge 的根目录 Skill。
+请安装 https://github.com/LycheeAILab/frame-forge 的 v2.0.0 版本根目录 Skill。
 ```
 
-安装后，在新任务中输入 `$frame-forge` 开始使用。生成作品需要当前会话支持内置生图工具。
+安装后，在新任务中输入 `$frame-forge` 开始使用。完成 Lab 登录后，可选择 Lab 云端生图或当前会话的内置生图工具。需要 Python 3.10+，使用 Lab 通道前安装 `requirements.txt`。
 
 <details>
 <summary>手动安装 · macOS / Linux / Windows</summary>
@@ -141,13 +141,13 @@
 macOS / Linux：
 
 ```bash
-git clone https://github.com/LycheeAILab/frame-forge.git ~/.codex/skills/frame-forge
+git clone --branch v2.0.0 https://github.com/LycheeAILab/frame-forge.git ~/.codex/skills/frame-forge
 ```
 
 Windows PowerShell：
 
 ```powershell
-git clone https://github.com/LycheeAILab/frame-forge.git "$env:USERPROFILE\.codex\skills\frame-forge"
+git clone --branch v2.0.0 https://github.com/LycheeAILab/frame-forge.git "$env:USERPROFILE\.codex\skills\frame-forge"
 ```
 
 设置了自定义 `CODEX_HOME` 时，安装到其 `skills/frame-forge` 目录。安装后在新任务中使用。
@@ -173,7 +173,7 @@ git clone https://github.com/LycheeAILab/frame-forge.git "$env:USERPROFILE\.code
 <details>
 <summary>生成与输出说明</summary>
 
-- 使用当前会话的内置生图工具，无需在本 skill 中配置 API key。
+- Lab 云端生图与 Codex 生图均使用 Lab 账号授权，无需配置供应商 API key。
 - 提示词在内部使用，用户收到图片与简短说明。
 - 选风格直接展示固定预览，不额外生成选择图。
 - 内置工具不可用时说明暂时无法生成，不用提示词代替图片。

@@ -1,6 +1,22 @@
-# 内置生图
+# 生图通道
+
+两条通道都需要有效 Lab 登录。Python 3.10+；安装 requirements.txt。脚本路径相对 Skill 根目录，用户文件使用绝对路径。安装测试不能发起生成。
+
+## Lab 云端生图
+
+先执行 `python scripts/lab_auth.py login`。风格提示词编译至内部 UTF-8 文件，不在消息展开。用户选择 Lab 云端生图后执行：
+
+```text
+python scripts/lab_image.py --prompt-file <绝对路径> --output <绝对路径.png> --size 768x1024
+```
+
+有参考照片附加 `--image <绝对路径>`；支持PNG/JPEG/WebP，自动转PNG。无图走生成，有图走编辑。常用尺寸：1024x1024、768x1024、1024x768。实际尺寸需检视，不保证请求像素完全一致。
+
+请求ID和任务ID自动记录于输出旁的隐藏状态文件。连接失败后使用完全相同的命令会查询或复用原任务；结果不确定时不得更换输出文件重新提交。成功图片和任务保留在当前 Lab 账户，用户询问数据去向时据实回答，无需逐次弹出保存确认。供应商 Key 始终在服务端。
 
 ## 用户内置工具
+
+先运行 `python scripts/lab_auth.py status`，只有 authenticated=true 才能继续。此通道只向 Lab 验证身份，不把照片或成品另传 Lab；宿主本身的数据处理规则照常适用。
 
 查看当前工具列表和 schema，使用实际可调用的内置生图工具。无需配置 API key，不读取或导出 Codex 登录凭据。工具未暴露模型选择时不能硬填 gpt-image-2，也不能声称已确认其底层模型。
 
